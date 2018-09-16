@@ -1,0 +1,27 @@
+# File Name: MainApp
+
+<Button>
+	size:140,130
+	colour:0,1,0,1
+	font_size:35
+
+<Widgets>:
+	canvas.before:
+		Color:
+			rgba: 1, 1, 1, 1
+        	
+	
+	Button:
+		pos:200,300
+		text:"Login"
+		on_release:root.Login()
+	
+	Button:
+		pos:350,300
+		text:"Register"
+		on_release:root.Register()
+
+	Button:
+		pos:500,300
+		text:"Train"
+		on_release:root.Train()
